@@ -31,6 +31,10 @@ Present::item($user)->with(function (User $user) {
 
 Install using composer
 
+```
+composer require dan-har/presentit
+```
+
 ## Basic usage
  
 The ```Present``` class is used for transforming single resource or a collection of resources.
