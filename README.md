@@ -52,7 +52,7 @@ $presentation = Present::item($user)->with(function (User $user) {
 ```
 
 Present a list of resources using the ```collection``` or ```each``` methods.
-Each of the items in the list will be transformed using the transformer.
+Each of the items in the list will be transformed using the transformer that is passed to the ```each``` method.
 ```php
 $presentation = Present::collection($usersList)->with(function (User $user) {
     return [
@@ -63,7 +63,7 @@ $presentation = Present::collection($usersList)->with(function (User $user) {
 });
 ``` 
 
-The ```transform``` function returns a ```Presentation``` object. To get the presentation data as array use the ```show``` method.
+The ```with``` function excepts a ```Transformer``` and returns a ```Presentation``` object. To get the presentation data as array use the ```show``` method.
 
 ```php
 $array = $presentation->show();
