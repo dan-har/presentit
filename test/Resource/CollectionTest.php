@@ -3,7 +3,7 @@
 namespace Presentit\Test\Resource;
 
 use Mockery as m;
-use Test\Stubs\TransformerStub;
+use Presentit\Test\Stubs\TransformerStub;
 use Presentit\Resource\Collection;
 
 class CollectionTest extends \PHPUnit_Framework_TestCase

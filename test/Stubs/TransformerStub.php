@@ -1,6 +1,6 @@
 <?php
 
-namespace Test\Stubs;
+namespace Presentit\Test\Stubs;
 
 class TransformerStub
 {

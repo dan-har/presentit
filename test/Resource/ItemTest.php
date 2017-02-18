@@ -6,7 +6,7 @@ use Mockery as m;
 use Presentit\Hidden;
 use Presentit\Presentation;
 use Presentit\Resource\Item;
-use Test\Stubs\TransformerStub;
+use Presentit\Test\Stubs\TransformerStub;
 
 class ItemTest extends \PHPUnit_Framework_TestCase
 {

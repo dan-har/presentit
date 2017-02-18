@@ -29,7 +29,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Test\\": "test"
+            "Presentit\\Test\\": "test"
         }
     },
     "minimum-stability": "dev",

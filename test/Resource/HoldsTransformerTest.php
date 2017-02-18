@@ -3,8 +3,8 @@
 namespace Presentit\Test\Resource;
 
 use ReflectionClass;
-use Test\Stubs\TransformerStub;
-use Test\Stubs\HoldTransformerStub;
+use Presentit\Test\Stubs\TransformerStub;
+use Presentit\Test\Stubs\HoldTransformerStub;
 
 class HoldsTransformerTest extends \PHPUnit_Framework_TestCase
 {

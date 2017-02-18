@@ -3,7 +3,7 @@
 namespace Presentit\Test\Transformer;
 
 use Presentit\Transformer\CallableTransformer;
-use Test\Stubs\TransformerStub;
+use Presentit\Test\Stubs\TransformerStub;
 use Presentit\Transformer\TransformerFactory;
 use Presentit\Transformer\ResolveTransformerException;
 
