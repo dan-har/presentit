@@ -93,7 +93,7 @@ class Present
     /**
      * Hide the presented key.
      *
-     * @return Hidden
+     * @return \Presentit\Hidden
      */
     static public function hidden()
     {
@@ -104,7 +104,7 @@ class Present
      * Set a transformer on the resource.
      *
      * @param mixed|callable $transformer
-     * @return Presentation
+     * @return \Presentit\Presentation
      */
     public function with($transformer)
     {
@@ -118,7 +118,7 @@ class Present
     /**
      * Get the resource.
      *
-     * @return ResourceInterface
+     * @return \Presentit\Resource\ResourceInterface
      */
     public function getResource()
     {
