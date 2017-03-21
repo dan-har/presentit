@@ -23,6 +23,10 @@ Present::item($user)->with(function (User $user) {
 + Callback transformers for inline data transformations. 
 + Control data properties visibility using the Hidden object instead of using if statements.
 
+## Adapters
+
++ [Laravel framework adapter](https://github.com/dan-har/presentit-laravel)
+
 # Docs
 + [Installation](#installation)
 + [Basic usage](#basic-usage)
