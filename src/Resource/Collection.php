@@ -40,7 +40,7 @@ class Collection implements ResourceInterface
     }
 
     /**
-     * Get the item resource.
+     * Get the resource value.
      *
      * @return mixed
      */
