@@ -32,6 +32,13 @@ class ItemTest extends \PHPUnit_Framework_TestCase
         $item->transform();
     }
 
+    public function testTransformReturnsEmptyArrayWithoutTransformer()
+    {
+        $item = new Item('foo');
+
+        $this->assertEquals([], $item->transform());
+    }
+
     public function testTransformHandleHiddenEntities()
     {
         $item = new Item([

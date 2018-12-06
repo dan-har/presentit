@@ -84,6 +84,17 @@ class PresentTest extends \PHPUnit_Framework_TestCase
         $this->assertInstanceOf(Collection::class, $present->getResource());
     }
 
+    public function testPresentEachIsAliasToCollection()
+    {
+        $resource = ['foo'];
+
+        $present = Present::each($resource);
+
+        $this->assertInstanceOf(Present::class, $present);
+
+        $this->assertInstanceOf(Collection::class, $present->getResource());
+    }
+
     public function testPresentEachFactory()
     {
         $resource = ['foo'];

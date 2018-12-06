@@ -12,8 +12,13 @@
          verbose="true"
 >
     <testsuites>
-        <testsuite name="">
-            <directory>/test/*Test.php</directory>
+        <testsuite name="presentit">
+            <directory suffix="Test.php">./test</directory>
         </testsuite>
     </testsuites>
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">./src</directory>
+        </whitelist>
+    </filter>
 </phpunit>
